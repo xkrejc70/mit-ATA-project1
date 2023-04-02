@@ -11,3 +11,5 @@ Graf přı́čin a důsledků vytvořen v online nástroji [ceg.testos.org](http
 Rozhodovací tabulka pokrývající veškeré příčiny i důsledky.
 
 ![Rozhodovací tabulka](/rozhodovaci_tabulka.png)
+
+
