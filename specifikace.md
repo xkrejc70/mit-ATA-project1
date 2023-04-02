@@ -72,5 +72,6 @@ Vozík neakceptuje materiál, pokud jsou všechny jeho sloty obsazené nebo by j
 
 - AMB_STATEMENT, jsou zde použity aliasy akceptovat a převzít, které odkazují na nakládat.
 - UNSPECIFIED_SUBJECT, není vysvětleno, co jsou to sloty vozíku a jakou maximální hmotnost vozík má.
+- AMB_LOGIC, dvojitá negace
 
-*Vozík nemůže nakládat materiál, pokud jsou všechny jeho sloty obsazené nebo jeho naložením byla překročena maximální nosnost. Vozík má pro převoz materiálu celkem 1 až 4 sloty. Vozíky jsou 3 druhů, každý má jinou maximální nosnost: 50 kg, 150 kg a 500 kg. Vozíky s nejmenší nosností mají nejméně 2 sloty, vozíky s největší nosností mají maximálně 2 sloty.*
+*Vozík může nakládat materiál, pouze pokud je alespoň jeden jeho slot volný a naložením materiálu by nebyla překročena maximální nosnost. Vozík má pro převoz materiálu celkem 1 až 4 sloty. Vozíky jsou 3 druhů, každý má jinou maximální nosnost: 50 kg, 150 kg a 500 kg. Vozíky s nejmenší nosností mají nejméně 2 sloty, vozíky s největší nosností mají maximálně 2 sloty.*

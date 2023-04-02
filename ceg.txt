@@ -1,0 +1,50 @@
+Causes:
+1_pozadavek: Vznesen nový požadavek o převozu materiálu systémem
+2_vyzvednuti_do_1m: Vozík přijede a vyzvedne materiál do 1 minuty
+3_nevyzvednuti_do_1m: Vozík nevyzvedne materiál do 1 minuty
+4_prior_vlastnost: Materiálu je nastavena prioritní vlastnost
+5_prior_pozadavek: Vznesen nový prioritní požadavek o převozu materiálu systémem
+6_vyzvednuti_prior_do_1m: Vozík přijede a vyzvedne materiál s prioritní vlastností do 1 minuty
+7_nevyzvednuti_prior_do_1m: Vozík nevyzvedne materiál s prioritní vlastností do 1 minuty
+9_rezim_pouze_vykladka: Vozík je v režimu pouze_vykládka
+8_rezim_normalka: Vozík je v režimu normálka
+10_vylozeni_prioritniho: Vozík vyloží všechen materiál s prioritní vlastností
+11_slot_volny: Vozík má alespoň jeden slot volný
+12_neprekrocena_max_nosnost: Naložením materiálu na vozík by nebyla překročena maximální nosnost
+
+Effects:
+70_vyzvednuti: Vozík přijede a vyzvedne materiál
+71_nastavena_prior_vlastnost: Systém nastaví materiálu prioritní vlastnost
+72_prioritni_pozadavek: Vznesen nový prioritní požadavek o převozu materiálu systémem
+73_pozadavek_zrusen: Prioritní požadavek je zrušen
+74_vyzvednuti_prior: Vozík přijede a vyzvedne materiál s prioritní vlastností
+75_rezim_pouze_vykladka: Vozík se přepíná do režimu pouze_vykládka
+76_stavajici_rezim: Vozík zůstává ve svém stávajícím režimu
+77_rezim_normalka: Vozík se přepíná do režimu normálka
+78_moznost_pozadavku: Na tento vozík může být vzneses požadavek o přesunu materiálu
+
+Rules:
+100_naklad_mozny = 11_slot_volny && 12_neprekrocena_max_nosnost
+70_vyzvednuti = 1_pozadavek && 8_rezim_normalka && 100_naklad_mozny
+71_nastavena_prior_vlastnost = 3_nevyzvednuti_do_1m
+72_prioritni_pozadavek = 4_prior_vlastnost
+73_pozadavek_zrusen = 7_nevyzvednuti_prior_do_1m
+74_vyzvednuti_prior = 5_prior_pozadavek && 100_naklad_mozny
+75_rezim_pouze_vykladka = 6_vyzvednuti_prior_do_1m
+76_stavajici_rezim = 2_vyzvednuti_do_1m
+77_rezim_normalka = 10_vylozeni_prioritniho
+78_moznost_pozadavku = 8_rezim_normalka
+
+Constraints:
+E: 2_vyzvednuti_do_1m, 3_nevyzvednuti_do_1m
+E: 6_vyzvednuti_prior_do_1m, 7_nevyzvednuti_prior_do_1m
+O: 8_rezim_normalka, 9_rezim_pouze_vykladka
+2_vyzvednuti_do_1m->1_pozadavek
+3_nevyzvednuti_do_1m->1_pozadavek
+4_prior_vlastnost->3_nevyzvednuti_do_1m
+5_prior_pozadavek->4_prior_vlastnost
+6_vyzvednuti_prior_do_1m->5_prior_pozadavek
+7_nevyzvednuti_prior_do_1m->5_prior_pozadavek
+10_vylozeni_prioritniho->6_vyzvednuti_prior_do_1m
+75_rezim_pouze_vykladka masks 77_rezim_normalka
+75_rezim_pouze_vykladka masks 78_moznost_pozadavku
