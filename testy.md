@@ -21,14 +21,47 @@ počet požadavků. To je nepřímý vstupní parametr. Tímto vytvoříš i kom
 | název | popis |
 |---|---|
 | pocet_pozadavku | Počet požadavků o převozu materiálu |
-| pocet_slotu | Počet slotů vozíku (1 až 4) |
-| max_nosnost | Maximální nosnost vozíku (3 druhy) |
-| vaha_materialu | Minimální váha materiálů ze všech požadavků |
-| delka_trasy | Délka trasy mezi zdrojovou a cílovou stanicí požadavku |
-|  ||
+| voz_pocet_slotu | Počet slotů vozíku (1 až 4) |
+| voz_max_nosnost | Maximální nosnost vozíku (3 druhy) |
+| max_vaha_pozadavku | Maximální váha materiálů ze všech požadavků |
+| cas_vytvoreni_pozadavku | Čas vytvoření požadavku |
+| prum_delka_trasy | Průměrná délka trasy mezi zdrojovou a cílovou stanicí (počet přechodů) |
 
 ## Charakteristiky parametrů a definice jejich bloků
 
-| název | popis |
+| pocet_pozadavku | Počet požadavků o převozu materiálu |
 |---|---|
+| 1 | Celkový počet požadavků je roven 1 |
+| 2 | Celkový počet požadavků je roven 2 |
+| 3 | Celkový počet požadavků je větší než  2 |
 
+| voz_pocet_slotu | Počet slotů vozíku (1 až 4) |
+|---|---|
+| 1 | Počet slotů vozíku je roven 1 |
+| 2 | Počet slotů vozíku je roven 2 |
+| 3 | Počet slotů vozíku je roven 3 |
+| 4 | Počet slotů vozíku je roven 4 |
+
+| pocet_pozadavku |  |
+|---|---|
+| 1 |  |
+| 2 |  |
+| 3 |  |
+
+| pocet_pozadavku |  |
+|---|---|
+| 1 |  |
+| 2 |  |
+| 3 |  |
+
+| pocet_pozadavku |  |
+|---|---|
+| 1 |  |
+| 2 |  |
+| 3 |  |
+
+| pocet_pozadavku |  |
+|---|---|
+| 1 |  |
+| 2 |  |
+| 3 |  |
