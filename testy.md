@@ -20,11 +20,15 @@ počet požadavků. To je nepřímý vstupní parametr. Tímto vytvoříš i kom
 
 | název | popis |
 |---|---|
-|||
+| pocet_pozadavku | Počet požadavků o převozu materiálu |
+| pocet_slotu | Počet slotů vozíku (1 až 4) |
+| max_nosnost | Maximální nosnost vozíku (3 druhy) |
+| vaha_materialu | Minimální váha materiálů ze všech požadavků |
+| delka_trasy | Délka trasy mezi zdrojovou a cílovou stanicí požadavku |
+|  ||
 
-
-## Charakteristika parametrů a definice jejich bloků
+## Charakteristiky parametrů a definice jejich bloků
 
 | název | popis |
 |---|---|
-|||
+
