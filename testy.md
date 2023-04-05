@@ -22,46 +22,43 @@ počet požadavků. To je nepřímý vstupní parametr. Tímto vytvoříš i kom
 |---|---|
 | pocet_pozadavku | Počet požadavků o převozu materiálu |
 | voz_pocet_slotu | Počet slotů vozíku (1 až 4) |
-| voz_max_nosnost | Maximální nosnost vozíku (3 druhy) |
-| max_vaha_pozadavku | Maximální váha materiálů ze všech požadavků |
-| cas_vytvoreni_pozadavku | Čas vytvoření požadavku |
+| voz_max_nosnost | Maximální nosnost vozíku (50, 150 a 500 kg) |
+| poz_max_vaha | Maximální váha materiálů ze všech požadavků |
+| poz_cas_vytvoreni | Čas vytvoření požadavku |
 | prum_delka_trasy | Průměrná délka trasy mezi zdrojovou a cílovou stanicí (počet přechodů) |
 
 ## Charakteristiky parametrů a definice jejich bloků
 
 | pocet_pozadavku | Počet požadavků o převozu materiálu |
 |---|---|
-| 1 | Celkový počet požadavků je roven 1 |
-| 2 | Celkový počet požadavků je roven 2 |
-| 3 | Celkový počet požadavků je větší než  2 |
+| 1 | Celkový počet požadavků je 1 až 2 |
+| 2 | Celkový počet požadavků je 2 až 5 |
+| 3 | Celkový počet požadavků je > 5 |
 
 | voz_pocet_slotu | Počet slotů vozíku (1 až 4) |
 |---|---|
 | 1 | Počet slotů vozíku je roven 1 |
 | 2 | Počet slotů vozíku je roven 2 |
-| 3 | Počet slotů vozíku je roven 3 |
-| 4 | Počet slotů vozíku je roven 4 |
+| 3 | Počet slotů vozíku je roven 3 až 4 |
 
-| pocet_pozadavku |  |
+| voz_max_nosnost | Maximální nosnost vozíku (50, 150 a 500 kg) |
+|---|---|
+| 1 | Maximální nosnost vozíku je 50 kg |
+| 2 | Maximální nosnost vozíku je 150 kg |
+| 3 | Maximální nosnost vozíku je 500 kg |
+
+| poz_max_vaha | Maximální váha materiálů ze všech požadavků |
+|---|---|
+| 1 | Maximální váha materiálů ze všech požadavků je <= daná kapacita vozíku |
+| 2 | Maximální váha materiálů ze všech požadavků je > daná kapacita vozíku |
+
+| poz_cas_vytvoreni | Čas vytvoření požadavku |
 |---|---|
 | 1 |  |
 | 2 |  |
 | 3 |  |
 
-| pocet_pozadavku |  |
+| prum_delka_trasy | Průměrná délka trasy mezi zdrojovou a cílovou stanicí (počet přechodů) |
 |---|---|
-| 1 |  |
-| 2 |  |
-| 3 |  |
-
-| pocet_pozadavku |  |
-|---|---|
-| 1 |  |
-| 2 |  |
-| 3 |  |
-
-| pocet_pozadavku |  |
-|---|---|
-| 1 |  |
-| 2 |  |
-| 3 |  |
+| 1 | Průměrná délka trasy je <= 2 |
+| 2 | Průměrná délka trasy je > 2 |
