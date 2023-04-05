@@ -55,7 +55,7 @@ Vstupním parametrům jsou definovány bloky.
 | poz_cas_vytvoreni | Čas vytvoření požadavku |
 |---|---|
 | 1 | Požadavky jsou vytvořeny maximálně po 20s |
-| 2 | Požadavky jsou vytvořeny minikálně po 20s |
+| 2 | Požadavky jsou vytvořeny minimálně po 20s |
 
 | prum_delka_trasy | Průměrná délka trasy mezi zdrojovou a cílovou stanicí (počet přechodů) |
 |---|---|
@@ -70,7 +70,8 @@ Zde jsou sepsány všechny závilosti jednotlivých bloků charakteristik
 
 Kombinace dvojic charakteristik definovaných výše byly vytvořeny v online nástroji [combine.testos.org](https://combine.testos.org/).
 
-
+- voz_max_nosnost.1 -> !voz_pocet_slotu.1
+- voz_max_nosnost.3 -> !voz_pocet_slotu.3
 
 
 
