@@ -14,9 +14,7 @@ Rozhodovací tabulka pokrývající veškeré příčiny i důsledky.
 
 ## Vstupní parametry
 
-Vezmes popis riadenia voziku v tovarni vytiahnes z toho vstupne parametre, napr. vozik ma sloty 1,2 ... nosnost 50,150 ... a specifikujes tomu rozne obmedzenia napr. nosnost.50 -> !sloty.1, no cca tak nejak
-
-počet požadavků. To je nepřímý vstupní parametr. Tímto vytvoříš i kombinace, kde bude více přesunů materiálu
+Zde jsou popsány některé vstupní parametry.
 
 | název | popis |
 |---|---|
@@ -28,6 +26,8 @@ počet požadavků. To je nepřímý vstupní parametr. Tímto vytvoříš i kom
 | prum_delka_trasy | Průměrná délka trasy mezi zdrojovou a cílovou stanicí (počet přechodů) |
 
 ## Charakteristiky parametrů a definice jejich bloků
+
+Vstupním parametrům jsou definovány bloky.
 
 | pocet_pozadavku | Počet požadavků o převozu materiálu |
 |---|---|
@@ -62,4 +62,10 @@ počet požadavků. To je nepřímý vstupní parametr. Tímto vytvoříš i kom
 | 1 | Průměrná délka trasy je <= 2 |
 | 2 | Průměrná délka trasy je > 2 |
 
+### Omezení mezi bloky
 
+Zde jsou sepsány všechny závilosti jednotlivých bloků charakteristik
+
+## Kombinace 
+
+Kombinace dvojic charakteristik definovaných výše byly vytvořeny v online nástroji [combine.testos.org](https://combine.testos.org/).
