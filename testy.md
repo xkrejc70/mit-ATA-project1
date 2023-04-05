@@ -69,3 +69,11 @@ Zde jsou sepsány všechny závilosti jednotlivých bloků charakteristik
 ## Kombinace 
 
 Kombinace dvojic charakteristik definovaných výše byly vytvořeny v online nástroji [combine.testos.org](https://combine.testos.org/).
+
+
+
+
+
+## Závěr
+
+V rámci projektu jsem si vyzkoušel v praxi Ambiguity Review, práci s online nástroji pro tvorbu CEG a kombinací bloků a nakonec i samotnou implementaci některých z testů. 
