@@ -54,9 +54,8 @@ počet požadavků. To je nepřímý vstupní parametr. Tímto vytvoříš i kom
 
 | poz_cas_vytvoreni | Čas vytvoření požadavku |
 |---|---|
-| 1 |  |
-| 2 |  |
-| 3 |  |
+| 1 | Požadavky jsou vytvořeny maximálně po 20s |
+| 2 | Požadavky jsou vytvořeny minikálně po 20s |
 
 | prum_delka_trasy | Průměrná délka trasy mezi zdrojovou a cílovou stanicí (počet přechodů) |
 |---|---|
