@@ -76,4 +76,4 @@ Kombinace dvojic charakteristik definovaných výše byly vytvořeny v online n�
 
 ## Závěr
 
-V rámci projektu jsem si vyzkoušel v praxi Ambiguity Review, práci s online nástroji pro tvorbu CEG a kombinací bloků a nakonec i samotnou implementaci některých z testů. 
+V rámci projektu jsem si vyzkoušel Ambiguity Review, práci s online nástroji pro tvorbu CEG a kombinací bloků a nakonec i samotnou implementaci některých z testů v pythonu. 
