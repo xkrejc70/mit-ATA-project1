@@ -37,9 +37,9 @@ počet požadavků. To je nepřímý vstupní parametr. Tímto vytvoříš i kom
 
 | voz_pocet_slotu | Počet slotů vozíku (1 až 4) |
 |---|---|
-| 1 | Počet slotů vozíku je roven 1 |
-| 2 | Počet slotů vozíku je roven 2 |
-| 3 | Počet slotů vozíku je roven 3 až 4 |
+| 1 | Počet slotů vozíku je 1 |
+| 2 | Počet slotů vozíku je 2 |
+| 3 | Počet slotů vozíku je 3 až 4 |
 
 | voz_max_nosnost | Maximální nosnost vozíku (50, 150 a 500 kg) |
 |---|---|
@@ -61,3 +61,5 @@ počet požadavků. To je nepřímý vstupní parametr. Tímto vytvoříš i kom
 |---|---|
 | 1 | Průměrná délka trasy je <= 2 |
 | 2 | Průměrná délka trasy je > 2 |
+
+
