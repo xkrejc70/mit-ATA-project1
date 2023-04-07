@@ -1,0 +1,63 @@
+{
+    "name": "ata-proj1",
+    "t_strength": "2",
+    "dont_care_values": "no",
+    "values": "values",
+    "parameters": [
+        {
+            "identificator": "pocet_pozadavku",
+            "type": "enum",
+            "blocks": [
+                "1-2",
+                "2-5",
+                ">5"
+            ]
+        },
+        {
+            "identificator": "voz_pocet_slotu",
+            "type": "enum",
+            "blocks": [
+                "1",
+                "2",
+                "3-4"
+            ]
+        },
+        {
+            "identificator": "voz_max_nosnost",
+            "type": "enum",
+            "blocks": [
+                "50",
+                "150",
+                "500"
+            ]
+        },
+        {
+            "identificator": "poz_max_vaha",
+            "type": "enum",
+            "blocks": [
+                "True",
+                "False"
+            ]
+        },
+        {
+            "identificator": "poz_cas_vytvoreni",
+            "type": "enum",
+            "blocks": [
+                "<=20s",
+                ">20s"
+            ]
+        },
+        {
+            "identificator": "prum_delka_trasy",
+            "type": "enum",
+            "blocks": [
+                "True",
+                "False"
+            ]
+        }
+    ],
+    "constraints": [
+        "voz_max_nosnost.1 -> !voz_pocet_slotu.1",
+        "voz_max_nosnost.3 -> !voz_pocet_slotu.3"
+    ]
+}
