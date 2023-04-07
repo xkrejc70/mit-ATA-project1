@@ -66,14 +66,14 @@ Vstupním parametrům jsou definovány bloky.
 
 Zde jsou sepsány všechny závilosti jednotlivých bloků charakteristik
 
+- voz_max_nosnost.1 -> !voz_pocet_slotu.1
+- voz_max_nosnost.3 -> !voz_pocet_slotu.3
+
 ## Kombinace 
 
 Kombinace dvojic charakteristik definovaných výše byly vytvořeny v online nástroji [combine.testos.org](https://combine.testos.org/).
 
-- voz_max_nosnost.1 -> !voz_pocet_slotu.1
-- voz_max_nosnost.3 -> !voz_pocet_slotu.3
-
-
+![Kombinace všech dvojic bloků](/combine.png)
 
 ## Závěr
 
