@@ -47,20 +47,20 @@ Vstupním parametrům jsou definovány bloky.
 | 2 | Maximální nosnost vozíku je 150 kg |
 | 3 | Maximální nosnost vozíku je 500 kg |
 
-| poz_max_vaha | Maximální váha materiálů ze všech požadavků |
+| poz_max_vaha | Maximální váha materiálů ze všech požadavků je <= daná kapacita vozíku |
 |---|---|
-| 1 | Maximální váha materiálů ze všech požadavků je <= daná kapacita vozíku |
-| 2 | Maximální váha materiálů ze všech požadavků je > daná kapacita vozíku |
+| 1 | True |
+| 2 | False |
 
 | poz_cas_vytvoreni | Čas vytvoření požadavku |
 |---|---|
 | 1 | Požadavky jsou vytvořeny maximálně po 20s |
 | 2 | Požadavky jsou vytvořeny minimálně po 20s |
 
-| prum_delka_trasy | Průměrná délka trasy mezi zdrojovou a cílovou stanicí (počet přechodů) |
+| prum_delka_trasy | Průměrná délka trasy mezi zdrojovou a cílovou stanicí (počet přechodů) je <= 2 |
 |---|---|
-| 1 | Průměrná délka trasy je <= 2 |
-| 2 | Průměrná délka trasy je > 2 |
+| 1 | True |
+| 2 | False |
 
 ### Omezení mezi bloky
 
