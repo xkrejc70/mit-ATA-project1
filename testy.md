@@ -77,9 +77,9 @@ Kombinace dvojic charakteristik definovaných výše byly vytvořeny v online n�
 
 ## Implementace testů
 
-Celkem bylo implementováno 100 testů v souboru `cartctl_test.py`.
+Celkem bylo implementováno 10 testů v souboru `cartctl_test.py`.
 
-### Testy pokrývající příčiny i důsledky z rozhodovací tabulky
+### Testy pokrývající příčiny a důsledky z rozhodovací tabulky
 
 | testID | Název testu | Popis |
 |---|---|---|
@@ -90,6 +90,14 @@ Celkem bylo implementováno 100 testů v souboru `cartctl_test.py`.
 | 5 (8) | test_case_5 | no request |
 
 ### Testy pokrývající některé kombinace dvojic charakteristik
+
+| testID | Název testu |
+|---|---|---|
+| 1 | test_combine_1 |
+| 2 | test_combine_2 |
+| 3 | test_combine_3 |
+| 4 | test_combine_4 |
+| 5 | test_combine_5 |
 
 ## Závěr
 
