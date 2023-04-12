@@ -84,9 +84,9 @@ Celkem bylo implementováno 100 testů v souboru `cartctl_test.py`.
 | testID | Název testu |
 |---|---|
 | 1 | test_case_1 |
-| 2 |  |
-| 3 |  |
-| 4 |  |
+| 2 | test_case_2 |
+| 3 | test_case_3 |
+| 4 | test_case_4 |
 | 5 (8) | test_case_5 |
 
 ### Testy pokrývající některé kombinace dvojic charakteristik
