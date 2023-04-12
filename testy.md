@@ -75,6 +75,30 @@ Kombinace dvojic charakteristik definovaných výše byly vytvořeny v online n�
 
 ![Kombinace všech dvojic bloků](/combine.png)
 
+## Implementace testů
+
+Celkem bylo implementováno 10 testů v souboru `cartctl_test.py`.
+
+### Testy pokrývající příčiny a důsledky z rozhodovací tabulky
+
+| testID | Název testu | Popis |
+|---|---|---|
+| 1 | test_case_1 | normal load |
+| 2 | test_case_2 | not loaded within 1 minute |
+| 3 | test_case_3 | priority load within 1 minute |
+| 4 | test_case_4 | cancel request |
+| 5 (8) | test_case_5 | no request |
+
+### Testy pokrývající některé kombinace dvojic charakteristik
+
+| testID | Název testu |
+|---|---|
+| 1 | test_combine_1 |
+| 2 | test_combine_2 |
+| 3 | test_combine_3 |
+| 4 | test_combine_4 |
+| 5 | test_combine_5 |
+
 ## Závěr
 
-V rámci projektu jsem si vyzkoušel Ambiguity Review, práci s online nástroji pro tvorbu CEG a kombinací bloků a nakonec i samotnou implementaci některých z testů v pythonu. 
+V rámci projektu jsem si vyzkoušel Ambiguity Review, práci s online nástroji pro tvorbu CEG a kombinací bloků a nakonec i samotnou implementaci některých z testů v pythonu (framework unittest). 
