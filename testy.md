@@ -77,11 +77,11 @@ Kombinace dvojic charakteristik definovaných výše byly vytvořeny v online n�
 
 ## Implementace testů
 
-Celkem bylo implementováno 100 testů
+Celkem bylo implementováno 100 testů v souboru `cartctl_test.py`.
 
-Testy pokrývající příčiny i důsledky z rozhodovací tabulky
+### Testy pokrývající příčiny i důsledky z rozhodovací tabulky
 
-| testID | Název testu v souboru `cartctl_test.py` |
+| testID | Název testu |
 |---|---|
 | 1 | test_case_1 |
 | 2 |  |
@@ -89,8 +89,8 @@ Testy pokrývající příčiny i důsledky z rozhodovací tabulky
 | 4 |  |
 | 5 | test_case_5 |
 
-Testy pokrývající některé kombinace dvojic charakteristik
+### Testy pokrývající některé kombinace dvojic charakteristik
 
 ## Závěr
 
-V rámci projektu jsem si vyzkoušel Ambiguity Review, práci s online nástroji pro tvorbu CEG a kombinací bloků a nakonec i samotnou implementaci některých z testů v pythonu. 
+V rámci projektu jsem si vyzkoušel Ambiguity Review, práci s online nástroji pro tvorbu CEG a kombinací bloků a nakonec i samotnou implementaci některých z testů v pythonu (framework unittest). 
