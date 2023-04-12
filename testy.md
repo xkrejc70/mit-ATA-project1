@@ -92,7 +92,7 @@ Celkem bylo implementováno 10 testů v souboru `cartctl_test.py`.
 ### Testy pokrývající některé kombinace dvojic charakteristik
 
 | testID | Název testu |
-|---|---|---|
+|---|---|
 | 1 | test_combine_1 |
 | 2 | test_combine_2 |
 | 3 | test_combine_3 |
