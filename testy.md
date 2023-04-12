@@ -85,8 +85,8 @@ Celkem bylo implementováno 100 testů v souboru `cartctl_test.py`.
 |---|---|---|
 | 1 | test_case_1 | normal load |
 | 2 | test_case_2 | not loaded within 1 minute |
-| 3 | test_case_3 ||
-| 4 | test_case_4 ||
+| 3 | test_case_3 | priority load within 1 minute |
+| 4 | test_case_4 | cancel request |
 | 5 (8) | test_case_5 | no request |
 
 ### Testy pokrývající některé kombinace dvojic charakteristik
